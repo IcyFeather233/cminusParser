@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Dev C++/projects/c-parser/Cparser.cpp
+globals.h
+E:/Dev C++/projects/c-parser/globals.h
+util.h
+E:/Dev C++/projects/c-parser/util.h
+scan.h
+E:/Dev C++/projects/c-parser/scan.h
+parse.h
+E:/Dev C++/projects/c-parser/parse.h
+analyze.h
+E:/Dev C++/projects/c-parser/analyze.h
+cgen.h
+E:/Dev C++/projects/c-parser/cgen.h
+
+E:/Dev C++/projects/c-parser/globals.h
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+string.h
+-
+stack
+-
+iostream
+-
+
+E:/Dev C++/projects/c-parser/parse.h
+
+E:/Dev C++/projects/c-parser/scan.h
+globals.h
+E:/Dev C++/projects/c-parser/globals.h
+
+E:/Dev C++/projects/c-parser/util.h
+

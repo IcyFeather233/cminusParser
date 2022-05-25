@@ -1,0 +1,71 @@
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: E:/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30142.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "E:/Dev C++/projects/c-parser/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: E:/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx86/x86/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.29.30142.1 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30142.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "E:/Dev C++/projects/c-parser/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/Dev C++/projects/c-parser/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_71933\fast && 	"E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_71933.dir\build.make /nologo -L                  CMakeFiles\cmTC_71933.dir\build
+Building C object CMakeFiles/cmTC_71933.dir/testCCompiler.c.obj
+	"D:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_71933.dir\testCCompiler.c.obj.d --working-dir="E:\Dev C++\projects\c-parser\cmake-build-debug\CMakeFiles\CMakeTmp" --filter-prefix="" -- "E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" @C:\Users\Lenovo\AppData\Local\Temp\nmE0E7.tmp
+Linking C executable cmTC_71933.exe
+	"D:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_71933.dir --rc="E:\Windows Kits\10\bin\10.0.19041.0\x86\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.19041.0\x86\mt.exe" --manifests -- "E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_71933.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmE220.tmp
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/Dev C++/projects/c-parser/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_cff69\fast && 	"E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_cff69.dir\build.make /nologo -L                  CMakeFiles\cmTC_cff69.dir\build
+Building CXX object CMakeFiles/cmTC_cff69.dir/testCXXCompiler.cxx.obj
+	"D:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_cff69.dir\testCXXCompiler.cxx.obj.d --working-dir="E:\Dev C++\projects\c-parser\cmake-build-debug\CMakeFiles\CMakeTmp" --filter-prefix="" -- "E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" @C:\Users\Lenovo\AppData\Local\Temp\nmEF2F.tmp
+Linking CXX executable cmTC_cff69.exe
+	"D:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_cff69.dir --rc="E:\Windows Kits\10\bin\10.0.19041.0\x86\rc.exe" --mt="E:\Windows Kits\10\bin\10.0.19041.0\x86\mt.exe" --manifests -- "E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\cmTC_cff69.dir\objects1.rsp @C:\Users\Lenovo\AppData\Local\Temp\nmF02A.tmp
+
+
+

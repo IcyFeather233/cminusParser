@@ -1,0 +1,28 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/Dev C++/projects/c-parser/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_7c637\fast && 	"E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_7c637.dir\build.make /nologo -L                  CMakeFiles\cmTC_7c637.dir\build
+Building C object CMakeFiles/cmTC_7c637.dir/CMakeCCompilerABI.c.obj
+	"D:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_7c637.dir\CMakeCCompilerABI.c.obj.d --working-dir="E:\Dev C++\projects\c-parser\cmake-build-debug\CMakeFiles\CMakeTmp" --filter-prefix="" -- "E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" @C:\Users\Lenovo\AppData\Local\Temp\nmDBB6.tmp
+NMAKE : fatal error U1077: “"D:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"”: 返回代码“0xc0000409”
+Stop.
+NMAKE : fatal error U1077: “"E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"”: 返回代码“0x2”
+Stop.
+
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: E:/Dev C++/projects/c-parser/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_5c773\fast && 	"E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_5c773.dir\build.make /nologo -L                  CMakeFiles\cmTC_5c773.dir\build
+Building CXX object CMakeFiles/cmTC_5c773.dir/CMakeCXXCompilerABI.cpp.obj
+	"D:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_5c773.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir="E:\Dev C++\projects\c-parser\cmake-build-debug\CMakeFiles\CMakeTmp" --filter-prefix="" -- "E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x86\cl.exe" @C:\Users\Lenovo\AppData\Local\Temp\nmEDA8.tmp
+NMAKE : fatal error U1077: “"D:\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"”: 返回代码“0xc0000409”
+Stop.
+NMAKE : fatal error U1077: “"E:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"”: 返回代码“0x2”
+Stop.
+
+
+
+
