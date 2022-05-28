@@ -1,5 +1,79 @@
 # cminusParser
 
+## 文法要求
+
+```
+1. program -> declaration_list
+2. declaration_list -> declaration_list declaration  |  declaration
+3. declaration -> var_declaration  |  fun_declaration
+4. var_declaration -> type_specifier ID;  |  type_specifier ID [ NUM ]; 
+5. type_specifier ->  int  |  void
+6. fun_declaration -> type_specifier ID ( params )  compound_stmt
+
+program ->  declaration  { declaration }
+declaration ->  type_specifier  ID  declaration’
+declaration’ ->  ;  |  [ NUM ];  |  ( params )  compound_stmt
+type_specifier ->  int  |  void
+
+7. params -> param_list  |  void
+8. param_list -> param_list , param  |  param
+9. param -> type_specifier ID  |  type_specifier ID [ ]
+
+param_list -> param_list1  |  param_list2
+param_list1->  void  [ ID  [ [  ] ]  {  , param  } ]
+param_list2->  int  ID  [ [  ] ]  {  , param  }
+param ->  type_specifier ID  [ [  ] ]
+
+10. compound_stmt -> { local_declarations statement_list }
+11. local_declarations -> local_declarations var_declaration | empty
+12. statement_list -> statement_list statement  |  empty
+
+compound_stmt -> {  { var_declaration }  { statement }  }
+
+13. statement -> expression_stmt  |  compound_stmt  |  selection_stmt  |  iteration_stmt  |  return_stmt
+14. expression_stmt -> expression ;  |  ;
+
+
+
+
+15. selection_stmt -> if ( expression ) statement  |  if ( expression ) statement else statement
+
+selection_stmt -> if ( expression ) statement  [ else statement ]
+
+16. iteration_stmt -> while ( expression ) statement
+
+17. return_stmt -> return  |  return  expression 
+return_stmt ->  return  [  expression  ]
+
+18. expression -> var = expression  |  simple_expression
+19. var -> ID  |  ID [ expression ]
+20. simple_expression -> additive_expression relop additive_expression  |  additive_expression
+21. relop ->  <=  |  <  |  >  |  >=  |  ==  |  ~=
+22. additive_expression -> additive_expression addop term  |  term
+23. addop -> +  |  -
+24. term -> term mulop factor  |  factor
+25. mulop -> *  |  /
+26. factor -> ( expression )  |  var  |  call  |  NUM
+27. call -> ID ( args )
+
+simple_expression可能以ID开头也可能以数组开头也可能不，会造成比较麻烦的左因子。改文法可以，程序处理也可以。
+expression -> var = expression  |  simple_expression
+var -> ID [  [expression]  ]
+simple_expression -> additive_expression [ relop additive_expression ]
+relop ->  <=  |  <  |  >  |  >=  |  ==  |  ~=
+additive_expression ->  term  { addop term }
+addop -> +  |  -
+term ->  factor  { mulop factor }
+mulop -> *  |  /
+factor ->  ( expression )  |  ID  factor’  |  NUM
+factor’ ->  [expression]  |  ( args )  |  ε
+
+
+28. args -> arg_list  |  empty
+29. arg_list -> arg_list , expression  |  expression
+arg_list ->  expression   {  , expression }  |  ε
+```
+
 ## test
 
 input:
